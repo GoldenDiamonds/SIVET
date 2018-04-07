@@ -1,3 +1,10 @@
+/*
+ *        *** SIVET ***
+ * Sistema Verificador de Tomates
+ *            v1.1
+ *            /07/04/18
+ *            Licence MIT
+ */
 const int s0 = 8;  
 const int s1 = 9;  
 const int s2 = 12;  
@@ -35,8 +42,8 @@ void setup(){
   // Iniciamos el monitor serie para mostrar el resultado
   Serial.begin(9600);
  
-  // Iniciamos el servo para que empiece a trabajar con el pin 9
-  servoMotor.attach(9);
+  // Iniciamos el servo para que empiece a trabajar con el pin 6
+  servoMotor.attach(6);
  
   // Inicializamos al ángulo 0 el servomotor
   servoMotor.write(0);
