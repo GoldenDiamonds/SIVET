@@ -1,0 +1,36 @@
+SIVET v2.0
+Esquema de cableado:
+Rojo - 5 V
+Azul - Neutro (GND)
+Verde . Dig 13 - 
+Violeta - Dig 12
+Blanco - Dig 11
+Gris - Dig 10
+Naranja - Dig 9
+Amarillo - Dig 8
+Azul - Dig 4
+Verde - Dig 3
+
+Módulo lector de microSD
+CS Amarillo Dig 4
+SCK Verde Dig 13
+MOSI Azul Dig 11
+MISO naranja Dig 12
+VCC Rojo 5V
+GND Negro GND
+
+Módulo TCS 230
+GND Negro
+OE Azul GND
+S1 Naranja Dig 9
+S0 Amarillo Dig 8
+
+S3 Blanco Dig 11
+S2 Violeta Dig 12
+OUT Gris Dig 10
+VCC Rojo 5V
+
+Servomotor TSG90
+Naranja Señal Dig 6
+Rojo VCC 5V
+Cafe GND to Amarillo
